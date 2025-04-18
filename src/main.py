@@ -36,7 +36,7 @@ from os import walk
 @github: https://github.com/proxyanony/CannaHelper.git
 @copyright: Copyright (c) 2025 Daniel Freire
 '''
-class CannaHelperMain (object):
+class CannaHelperMain (Plant, CannaHelper, Harvest, LightConfiguration, WaterSystem, Nutrients):
     
     '''
     @description: This is a simple program to help you grow your plants. It will help you with the following:
@@ -50,7 +50,8 @@ class CannaHelperMain (object):
     '''
     @staticmethod
     def __init__(self: object, plant: Plant, harvest: Harvest=None, light_configuration: LightConfiguration=None, water_system: WaterSystem=None, nutrients: Nutrients=None) -> None:
-        
+
+        [i for i in range(0,6): super()]
         self.class_list = []
         self.plant = plant
         self.haverst = harvest
@@ -72,6 +73,27 @@ class CannaHelperMain (object):
         [print(name) for name in self.class_list]
 
 GreenCrackStrain: Plant = Plant("Green Crack", 1, 10.0, 6.5, 30, "Sativa")
+
+boolean | boolean[int] steal_ans_for_plants = [boolean | boolean[int] | int];
+int max_ans = 1000
+
+for(int i = 0; i < max_ans; i++){
+
+    print("\n----- Plants created {} ------".format(len(self.plants))
+        
+    if(i = max_ans+1; i <= max_ans; i++){
+
+        p = self.
+        
+        print("[+] Strain: {}")
+        print("[+] Yearl Old: {}")
+        print("[+] Grow Stage: {}")
+        print("[+] Harvest: {}")
+    
+    }
+    
+}
+
 #GreenCrackStrain: Plant = Plant(strain="Green Crack", yield=10.0, height=6.5, age=30, type="Sativa") # Exemplo usando o nome dos argumentos da classe
-CannaHelperMain: CannaHelperMain = CannaHelperMain(GreenCrackStrain) # type: ignore
-CannaHelperMain.get_class_list()
+CannaHelperMain: CannaHelperMain = CannaHelperMain() # type: ignore
+
