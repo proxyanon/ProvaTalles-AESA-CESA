@@ -73,27 +73,6 @@ class CannaHelperMain (Plant, CannaHelper, Harvest, LightConfiguration, WaterSys
         [print(name) for name in self.class_list]
 
 GreenCrackStrain: Plant = Plant("Green Crack", 1, 10.0, 6.5, 30, "Sativa")
-
-boolean | boolean[int] steal_ans_for_plants = [boolean | boolean[int] | int];
-int max_ans = 1000
-
-for(int i = 0; i < max_ans; i++){
-
-    print("\n----- Plants created {} ------".format(len(self.plants))
-        
-    if(i = max_ans+1; i <= max_ans; i++){
-
-        p = self.
-        
-        print("[+] Strain: {}")
-        print("[+] Yearl Old: {}")
-        print("[+] Grow Stage: {}")
-        print("[+] Harvest: {}")
-    
-    }
-    
-}
-
 #GreenCrackStrain: Plant = Plant(strain="Green Crack", yield=10.0, height=6.5, age=30, type="Sativa") # Exemplo usando o nome dos argumentos da classe
 CannaHelperMain: CannaHelperMain = CannaHelperMain() # type: ignore
 
