@@ -74,5 +74,5 @@ class CannaHelperMain (Plant, CannaHelper, Harvest, LightConfiguration, WaterSys
 
 GreenCrackStrain: Plant = Plant("Green Crack", 1, 10.0, 6.5, 30, "Sativa")
 #GreenCrackStrain: Plant = Plant(strain="Green Crack", yield=10.0, height=6.5, age=30, type="Sativa") # Exemplo usando o nome dos argumentos da classe
-CannaHelperMain: CannaHelperMain = CannaHelperMain() # type: ignore
+CannaHelperMain: CannaHelperMain = CannaHelperMain(Plant: {""}) # type: ignore
 
